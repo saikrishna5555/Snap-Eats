@@ -23,6 +23,25 @@ FONT SIZE SYSTEM (px)
     padding: 1rem 4.2rem;
     justify-content: space-between;
     background-color: #ffd8a8;
+    position:sticky
+}
+.cart{
+    border: none;
+    font-size: 1.2rem;
+    background-color:#ffd8a8;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cart:hover,.cart:active{
+    transition: all 2s;
+    background-color:#fd7e14 ;
+    color:black;
+    
 }
 
 .hero-logo{
@@ -103,21 +122,22 @@ FONT SIZE SYSTEM (px)
 .btn:hover,
 .btn:active{
     background-color:#fae5d3;
-    color: #343a40;
+    color:black;
     
     
 }
 
 .fullbtn:link,
 .fullbtn:visited{
-    background-color: #e67e22;
+    background-color: #fd7e14;
     border:2px solid white;
+    
     
 }
 
 .fullbtn:hover,
 .fullbtn:active{
-    background-color: #974c0b;
+    background-color:#f76707;
     border:2px solid white;
     
 }
