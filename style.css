@@ -176,3 +176,18 @@ FONT SIZE SYSTEM (px)
     color:#e67e22
 }
 
+/* hero items */
+.hero_items{
+    display: grid;
+    margin:2rem 4rem;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero_items img{
+    width: 100%;
+
+
+}
